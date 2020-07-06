@@ -1,16 +1,18 @@
-// const element = document.createElement('h1');
-// element.innerText = 'Hello, Platzi Badges!';
+// const element = document.createElement('h1')
 
-// const container = document.getElementById('app');
+// element.innerText = 'Hello ,platzi Bages'
 
-// container.appendChild(element);
+// const container = document.getElementById('app')
 
-import React from 'react';
-import ReactDOM from 'react-dom';
 
-const element = <h1>Hello, Platzi Badges!</h1>;
+// container.appendChild(element)
 
-const container = document.getElementById('app');
+import React from 'react'
+import ReactDom from 'react-dom'
 
-// ReactDOM.render(__qué__, __dónde__);
-ReactDOM.render(element, container);
+const element = <h1>Hello Platzi Badges from React!</h1>
+
+const container = document.getElementById('app')
+
+// ReactDom.render(__qué,____Donde_____)
+ReactDom.render(element, container)
