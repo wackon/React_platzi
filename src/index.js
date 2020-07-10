@@ -6,4 +6,13 @@ import "./global.css";
 
 const container = document.getElementById("app");
 
-ReactDom.render(<Badge />, container);
+ReactDom.render(
+  <Badge
+    firstName="Jenny"
+    lastName="Castaño"
+    avatarUrl="https://gravatar.com/avatar?d=identicon"
+    jobTitle="Auxilar de Radiologia"
+    linkedid="jennyalvarezca"
+  />,
+  container
+);
